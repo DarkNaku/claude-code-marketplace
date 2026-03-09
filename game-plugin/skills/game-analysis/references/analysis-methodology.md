@@ -2,6 +2,86 @@
 
 게임을 체계적으로 분석하기 위한 상세 기법 가이드.
 
+---
+
+## 웹 검색 기반 정보 수집
+
+분석 시작 전 반드시 WebSearch와 WebFetch로 실제 정보를 수집합니다.
+
+### 검색 단계별 가이드
+
+**1단계: 기본 정보 파악**
+```
+"[게임명] game overview"
+"[게임명] wikipedia"
+"[게임명] steam store page"          ← 공식 설명, 장르, 태그
+"[게임명] metacritic"                 ← 전문가 평점 + 리뷰 요약
+```
+
+**2단계: 메카닉 및 시스템 조사**
+```
+"[게임명] core gameplay loop explained"
+"[게임명] game mechanics breakdown"
+"[게임명] how does [특정 시스템] work"
+"[게임명] progression system"
+"[게임명] wiki [시스템명]"             ← 팬 위키에서 수치 확인
+```
+
+**3단계: 디자인 분석 자료 수집**
+```
+"site:gamedeveloper.com [게임명]"      ← 전문 개발자 분석
+"site:gdcvault.com [게임명]"           ← GDC 발표 자료
+"[게임명] game design analysis"
+"[게임명] postmortem"                  ← 개발자가 직접 쓴 회고
+"[게임명] design breakdown [연도]"
+```
+
+**4단계: 커뮤니티 반응 조사**
+```
+"site:reddit.com [게임명] game design"
+"[게임명] what makes it fun"
+"[게임명] negative reviews criticism"   ← 단점도 파악
+"[게임명] player retention"
+```
+
+**5단계: 수익화 및 비즈니스 모델 (F2P 게임)**
+```
+"[게임명] monetization model"
+"[게임명] gacha system explained"
+"[게임명] battle pass"
+"[게임명] revenue estimate"
+"[게임명] AppMagic" OR "[게임명] SensorTower"
+```
+
+**6단계: 구현 레퍼런스**
+```
+"[게임명] Unity tutorial"
+"[게임명] Unity clone tutorial"
+"how to make [게임 장르] game Unity"
+"[핵심 메카닉] Unity implementation"
+```
+
+### WebFetch 활용 팁
+
+검색 결과 URL을 WebFetch로 직접 읽으면 더 풍부한 정보를 얻을 수 있습니다:
+
+- **Game Developer 아티클**: 개발자 의도, 설계 결정 이유
+- **Steam 상점 페이지**: 공식 장르 태그, 플레이어 리뷰
+- **팬 위키**: 수치 데이터 (HP, 쿨다운, 확률 등)
+- **Reddit 스레드**: 플레이어 관점, 숨겨진 메카닉 발견
+- **YouTube 설명란**: 분석 영상의 주요 포인트 정리
+
+### 정보 신뢰도 등급
+
+| 등급 | 출처 | 활용 |
+|---|---|---|
+| 최고 | 공식 개발자 블로그, GDC 발표 | 설계 의도, 수치 확인 |
+| 높음 | 전문 리뷰어, Game Developer | 객관적 분석 |
+| 중간 | 팬 위키, 커뮤니티 분석 | 메카닉 수치, 패턴 |
+| 참고 | Reddit, 일반 리뷰 | 플레이어 경험, 반응 |
+
+---
+
 ## 시스템 분해 기법
 
 ### 1. 플레이어 액션 추적
