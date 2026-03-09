@@ -6,8 +6,13 @@
   "plugins": [
     {
       "name": "unity-plugin",
-      "source": "./plugins/unity-plugin",
-      "description": "Unity 개발을 위한 플러그인"
+      "source": "./unity-plugin",
+      "description": "Unity 개발을 위한 플러그인 (VContainer, R3, MessagePipe, UniTask, ZLinq, NSubstitute, TDD, Test Runner, Lightweight DDD)"
+    },
+    {
+      "name": "game-plugin",
+      "source": "./game-plugin",
+      "description": "게임 분석, MVP 기반 개발 계획 수립, Feature 단위 세부 구현 항목 작성을 위한 플러그인"
     }
   ]
 }
