@@ -1,0 +1,13 @@
+{
+  "name": "darknaku-marketplace",
+  "owner": {
+    "name": "DarkNaku"
+  },
+  "plugins": [
+    {
+      "name": "unity-plugin",
+      "source": "./plugins/unity-plugin",
+      "description": "Unity 개발을 위한 플러그인"
+    }
+  ]
+}
