@@ -5,14 +5,17 @@
   },
   "plugins": [
     {
-      "name": "unity-plugin",
-      "source": "./unity-plugin",
-      "description": "Unity 개발을 위한 플러그인 (VContainer, R3, MessagePipe, UniTask, ZLinq, NSubstitute, TDD, Test Runner, Lightweight DDD)"
-    },
-    {
-      "name": "game-plugin",
-      "source": "./game-plugin",
-      "description": "게임 분석, MVP 기반 개발 계획 수립, Feature 단위 세부 구현 항목 작성을 위한 플러그인"
+      "name": "darknaku",
+      "description": "Unity 게임 개발을 위한 플러그인",
+      "version": "0.0.1",
+      "author": {
+        "name": "DarkNaku"
+      },
+      "repository": "https://github.com/DarkNaku/claude-code-marketplace",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/DarkNaku/claude-code-marketplace.git"
+      }
     }
   ]
 }
