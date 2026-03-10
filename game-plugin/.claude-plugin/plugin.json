@@ -1,8 +1,0 @@
-{
-  "name": "game-plugin",
-  "description": "게임 분석, 개발 계획 수립, 세부 구현 항목 작성을 위한 플러그인",
-  "version": "0.0.1",
-  "author": {
-    "name": "DarkNaku"
-  }
-}
