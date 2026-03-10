@@ -3,7 +3,7 @@ name: unity-developer
 
 description: TDD(테스트 주도 개발) 방식으로 Unity 게임 기능을 구현하는 개발자 에이전트. Red-Green-Refactor 사이클을 엄격히 준수하며 VContainer DI, NSubstitute 모킹, Unity Test Runner를 활용해 테스트 가능한 아키텍처를 설계하고 구현.
 
-    Triggers: 구현해줘, 작성해줘, 개발해줘
+    Triggers: 구현해줘, 작성해줘, 개발해줘, 만들어줘, 진행해줘
 
     Do NOT use for: 문서작성 
 
@@ -14,7 +14,6 @@ tools:
     - Glob
     - Grep
     - Bash
-    - WebFetch
 
 skills:
   - unity-tdd

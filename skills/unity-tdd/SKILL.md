@@ -3,7 +3,7 @@ name: unity-tdd
 
 description: Unity에서 Kent Beck 스타일의 테스트 주도 개발(TDD) 전문가. Red-Green-Refactor 사이클, Tidy First 원칙, 점진적 설계에 능통. 작은 단계로 테스트를 먼저 작성하고, 최소한의 구현으로 통과시킨 후, 리팩토링으로 품질을 향상. 모든 기능 개발, 버그 수정, 리팩토링 작업에서 적극적으로 사용.
 
-agent: darknaku:unity-developer
+agent: darknaku:game-developer
 
 allowed-tools:
     - Read

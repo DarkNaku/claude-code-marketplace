@@ -5,7 +5,7 @@ description: Unity 게임 개발을 위한 경량 Domain Driven Design 방식.
   게임플레이 로직과 Unity 런타임 시스템을 분리하되, 안전한 Unity 데이터
   타입 사용은 허용한다.
 
-agent: darknaku:unity-developer
+agent: darknaku:game-developer
 
 allowed-tools:
     - Read
