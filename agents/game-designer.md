@@ -3,7 +3,7 @@ name: game-designer
 
 description: 게임 아이디어나 장르를 입력받아 레퍼런스 게임을 웹에서 직접 조사하고, MVP 기반 PRD를 수립하며, 초기 밸런스 수치를 설계하고, Feature 단위 Task를 순서대로 작성하는 게임 기획자 에이전트. "게임 기획해줘", "레퍼런스 분석하고 계획 잡아줘", "PRD 작성해줘", "개발 Task 뽑아줘" 같은 요청에 사용.
 
-    Triggers: 기획해줘, 분석해줘, 조사해줘, 작성해줘, PRD, Task
+    Triggers: 기획해줘, 분석해줘, 조사해줘, 작성해줘, PRD, Task, 갱신해줘, 보완해줘, 개선해줘
 
     Do NOT use for: 코드 작성, Unity 씬 수정
 

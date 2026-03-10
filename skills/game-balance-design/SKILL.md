@@ -1,10 +1,14 @@
 ---
 name: game-balance-design
+
 description: PRD의 기능 명세와 game-analysis의 레퍼런스 데이터를 바탕으로 게임 시스템의 초기 수치 파라미터를 설계하는 전문가. HP·데미지·스폰율·경험치·경제 화폐 등 핵심 숫자를 장르 관례와 레퍼런스 게임 역설계 데이터를 근거로 초안 작성. 수치는 "정답"이 아닌 플레이테스트 출발점임을 명시. 개발 시작 전 구현에 필요한 수치 기준을 제공할 때 사용.
+
+agent: darknaku:game-designer
 
 allowed-tools:
     - Read
     - Write
+    - Edit
 ---
 
 # game-balance-design — 게임 밸런스 수치 설계

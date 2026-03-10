@@ -1,13 +1,14 @@
 ---
 name: game-prd-writer
 
-description: 게임 분석 결과 또는 게임 아이디어를 입력받아 MVP 방법론에 따른 게임 PRD(Product Requirements Document)를 작성하는 전문가. game-analysis 스킬의 MDA 분석·Octalysis·루프 구조 출력을 직접 소비하여 핵심 경험 선언문을 도출하고, MVP 필수 기능을 수용 기준(Acceptance Criteria)이 포함된 기능 명세로 정의. PRD는 WHAT과 WHY를 정의하며 HOW(구현 방식)는 포함하지 않음. MVP → 알파 → 베타 → 출시 준비 단계별 기능 범위와 전환 조건을 명시. 게임 개발 착수 전 요구사항 정의, 범위 재조정, 스테이지 계획 수립 시 사용.
+description: 게임 분석 결과 또는 게임 아이디어를 입력받아 MVP 방법론에 따른 게임 PRD(Product Requirements Document)를 작성하는 전문가. game-analysis 스킬의 MDA 분석·Octalysis·루프 구조 출력을 직접 소비하여 핵심 경험 선언문을 도출하고, MVP 필수 기능을 수용 기준(Acceptance Criteria)이 포함된 기능 명세로 정의. PRD는 WHAT과 WHY를 정의하며 HOW(구현 방식)는 포함하지 않음. MVP → 알파 → 베타 → 출시 준비 단계별 기능 범위와 전환 조건을 명시. 게임 개발 착수 전 요구사항 정의, 범위 재조정, 스테이지 계획 수립 시 사용. PRD.md 파일로 저장.
 
 agent: darknaku:game-designer
 
 allowed-tools:
     - Read
     - Write
+    - Edit
 
 user-invocable: false
 ---
